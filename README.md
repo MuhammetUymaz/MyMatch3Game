@@ -107,4 +107,4 @@ Game Over, Game Winning cases are tested.
 Other some tests are worked on, too.
 
 <h3>Gameplay</h3>
-<img src = "MyMatch3Game_Gameplay.gif" width = "%10"/>
+<img src = "MyMatch3Game_Gameplay.gif" width = "%10" height = "%10"/>
