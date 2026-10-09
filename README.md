@@ -100,11 +100,17 @@ User can enter row, and column of the board and generate the board by clicking "
 The Level Editor is not completed yet.
 UnityEditor library is used for this editor.
 
-L) TEST
+L) Test
 
 Tested edge cases for getting tile from board (about array-index)
 Game Over, Game Winning cases are tested.
 Other some tests are worked on, too.
+
+M) Other
+Encapsulation, abstraction, inheritance concepts are used.
+Interfaces are used.
+Single Responsibility Principle (SRP) is applied sometimes, but project needs a refactor (it is a WIP 
+project)
 
 <h3>Gameplay (GIF) </h3>
 <img src = "MyMatch3Game_Gameplay.gif" width = "312px" height = "689px"/>
