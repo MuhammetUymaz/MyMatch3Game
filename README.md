@@ -105,3 +105,5 @@ L) TEST
 Tested edge cases for getting tile from board (about array-index)
 Game Over, Game Winning cases are tested.
 Other some tests are worked on, too.
+
+<video src = "MyMatch3Game_Gameplay.mov" width = "100%"></video> 
