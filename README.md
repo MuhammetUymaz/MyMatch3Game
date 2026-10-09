@@ -107,4 +107,4 @@ Game Over, Game Winning cases are tested.
 Other some tests are worked on, too.
 
 <h3>Gameplay</h3>
-<video src = "MyMatch3Game_Gameplay.mp4" controls width = "100%"></video> 
+<img src = "MyMatch3Game_Gameplay.gif" width = "100%"/>
