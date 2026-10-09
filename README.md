@@ -1,12 +1,19 @@
 Project Name: My Match3 Game
+
 Description: This is a game project which is in Match3 game genre.
+
 Programming Language: C#
+
 Game Engine: Unity
+
 Project Situation: Work In Progress
+
 Developer, Project Manager, Author, Owner: Muhammet Uymaz
 
 A) Game Mechanics:
+
 The game includes these mechanisms:
+
 1) Swapping,
 2) Matching,
 3) Be able to make a power-up (like Dynamite) by matching
@@ -28,11 +35,13 @@ The game includes these mechanisms:
 11) Filling empty tile after below candy's exploding animation is done
 
 B) Board
+
 The board is always located center of the screen dynamically.
 There is a SpriteMask object above of the board.
 The pieces are masked when they are falling by refilling system. So no piece is shown above of the board.
 
 C) Animation System
+
 There is a custom animation system is used.
 I built this animation system from scratch.
 By use AnimationManager, we can make different animations with different Ease Functions.
@@ -44,6 +53,7 @@ Observer design pattern is used, so 2 situation can be observed by other classes
 This system does not causes memory leak.
 
 D) Piece
+
 Piece uses these 2 systems:
 1) Entity Component System Architecture
   I built this system from scratch (it is not Unity's ECS system)
@@ -55,22 +65,27 @@ Piece uses these 2 systems:
    It makes the project optimized.
 
 E) Hint System
+
 It shows the possible matching sequence after a while.
 
 F) Service Locator
+
 It includes the objects of the classes which are reached by other classes.
 I used it to not use Singleton Design Pattern over and over again.
 It makes the project maintainable, flexible and clean.
 
 G) Timer System
+
 Observer design pattern is used.
 It is used to set the time by classes.
 
 H) Game Mode
+
 The game has got 3 modes: TimeBased, StepBased, MatchingGoalBased
 StepBased and MatchingGoalBased modes are not added yet.
 
 I) Game State
+
 Game states are controlled by Game Manager. States are: Playing and GameOver.
 
 J) Used Design Patterns
@@ -79,12 +94,14 @@ J) Used Design Patterns
 3) Service Locator
    
 K) Level Editor
+
 The project has got a Level Editor. It is opened: Windows -> LevelEditor button.
 User can enter row, and column of the board and generate the board by clicking "Generate" button. 
 The Level Editor is not completed yet.
 UnityEditor library is used for this editor.
 
 L) TEST
+
 Tested edge cases for getting tile from board (about array-index)
 Game Over, Game Winning cases are tested.
 Other some tests are worked on, too.
